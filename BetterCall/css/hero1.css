@@ -1,0 +1,86 @@
+.char-right {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 3%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  height: 430px;
+}
+
+div.roundCornersRight {
+  position: absolute;
+  background-image: url("../img/silk.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  border-radius: 20px;
+  padding: 15px;
+  width: 700px;
+  height: 400px;
+  margin: 10px;
+  margin-left: 1200px;
+}
+
+@media (max-width: 640px) {
+  div.roundCornersRight {
+    width: 100%;
+  }
+}
+
+img.hero-img-right {
+  object-fit: cover;
+  color: #000000;
+  margin-left: -15px;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: -15px;
+  height: 400px;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  img.hero-img-right {
+    width: 50%; /* Half the width of the viewport */
+    height: auto; /* Keep the original aspect ratio */
+    margin-left: 0; /* Remove the left margin */
+  }
+}
+
+.wide-right {
+  margin-left: 340px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 15px;
+  width: 1600px;
+  height: 260px;
+}
+
+h1.name1-right {
+  font-family: "Pine";
+  font-weight: lighter;
+  font-size: 70px;
+  margin: 80px;
+  z-index: 1;
+  color: rgb(184, 26, 26);
+  margin-left: 800px;
+  width: 800px;
+}
+
+@media (max-width: 640px) {
+  h1.name1-right {
+    font-size: 30px; /* Reduce the font size */
+    margin-left: 0; /* Remove the left margin */
+    width: 100%; /* Take up the full width of the viewport */
+  }
+}
+
+.JamesP-right {
+  width: 825px;
+  margin-bottom: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Pine";
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 30px;
+}
